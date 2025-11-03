@@ -2,7 +2,7 @@
 title: Browse
 layout: browse
 permalink: /browse.html
-published: false
+published: true
 ---
 
 ## Browse Items

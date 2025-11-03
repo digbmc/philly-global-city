@@ -5,6 +5,6 @@
 {%- endcomment -%}
 
 <div>
-    {% assign essay = site.essays | where: objectid, page.objectid | first %}
+    {% assign essay = site.essays | where: "objectid", page.objectid | first %}
     {{ essay.content | markdownify }}
 </div>
