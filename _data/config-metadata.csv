@@ -7,7 +7,7 @@ subject,Subjects,true,,DCTERMS.subject,keywords
 location,Location,,,,contentLocation
 latitude,Latitude,,,,
 longitude,Longitude,,,,
-source,Source,,,,
+source,Source,,true,,
 identifier,Source Identifier,,,,
 type,Type,,,DCTERMS.type,
 format,Format,,,,encodingFormat

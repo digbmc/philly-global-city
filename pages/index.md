@@ -21,5 +21,5 @@ padding: 6em
 This website features an interactive map of key sites and objects related to the Italian legacy in Philadelphia.
 
 <div class="text-center">
-    <a href="{{ 'map.html' | relative_url }}" class="btn btn-primary btn-lg mb-2">View the Map</a>
+    <a href="{{ 'map.html' | relative_url }}" class="btn btn-primary btn-lg mb-4">View the Map</a>
 </div>

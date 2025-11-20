@@ -29,5 +29,5 @@ padding: 6em
 - Alice McGrath, Senior Digital Scholarship Specialist
 - Cameron Boucher, Educational and Scholarly Technology Assistant
 - Tessa Eisen, Educational and Scholarly Technology Assistant
-- Digital Scholarship Project Assistant
+- Eleanor Sullivan, Digital Scholarship Project Assistant
 - Students in ITAL B240
