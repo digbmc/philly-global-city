@@ -3,9 +3,9 @@ title: Home
 permalink: /
 layout: about
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Independence_Hall_Flowers.jpg/2560px-Independence_Hall_Flowers.jpg
+about-featured-image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Independence_Hall_in_Philadelphia_by_Ferdinand_Richardt%2C_1858-63.jpg/1280px-Independence_Hall_in_Philadelphia_by_Ferdinand_Richardt%2C_1858-63.jpg
 # Credits/attribution for the image (optional)
-featured-image-credits: https://commons.wikimedia.org/wiki/File:Independence_Hall_Flowers.jpg
+featured-image-credits: https://commons.wikimedia.org/wiki/File:Independence_Hall_in_Philadelphia_by_Ferdinand_Richardt,_1858-63.jpg
 # set background-position for featured image, "center", "top", "bottom"
 position: center
 # major heading to display over featured image
