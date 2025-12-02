@@ -2,3 +2,19 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+
+$primary: #0d6efd;
+
+/* blockquote styles */
+blockquote {
+    display: block;
+    border-left: 4px solid $primary;
+    padding: 0.5rem 0 0.25rem 1rem;
+}
+
+/* citation list */
+.citations {
+    list-style-type: none;
+    text-indent: -2em;
+    margin-left: 1em;
+}

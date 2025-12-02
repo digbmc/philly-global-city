@@ -1,0 +1,14 @@
+{% assign essay = site.essays | where: "objectid", page.objectid | first %}
+
+<h2 id="works-cited">Works Cited</h2>
+<ul class="citations">
+{% for work in essay.works-cited %}
+    <li>{{ work | markdownify }}</li>
+{% endfor %}
+</ul>
+<h2 id="images-cited">Images Cited</h2>
+<ul class="citations">
+{% for image in essay.images-cited %}
+    <li>{{ image | markdownify }}</li>
+{% endfor %}
+</ul>
