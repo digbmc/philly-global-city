@@ -4,17 +4,40 @@
 layout: item/item-page-base
 ---
 
-<div class="card mb-4 text-center">
-    <div class="card-body">
-        
-        <p>
-            {% include item/item-thumb.html %}
-        </p>
-        <div class="mt-2">
+<div class="card mb-4">
+            <div class="card-img-top">
+                {% include item/image-gallery.html %}
+            </div>
+            <div class="card-body p-0">
+                <div class="accordion accordion-flush" id="photoInfo">
+                    <div class="accordion-item rounded-bottom">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            About the Photo
+                        </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div>
+                                <div class="col-12 col-md-10" id="metadata">
 
-            {% include item/download-buttons.html %}
+                                    {% include item/metadata.html %}
 
+                                </div>
+
+                                {% comment %}
+                                <div class="col-md-5 py-4">
+                                    {% include item/citation-box.html %}
+                                </div>{% endcomment %}
+                                {% if page.rights or page.rightsstatement %}
+                                <div class="col-12 col-md-10 py-4">
+                                    {% include item/rights-box.html %}
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-    </div>
-</div>

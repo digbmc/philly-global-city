@@ -4,7 +4,29 @@
     
 {%- endcomment -%}
 
+{% assign essay = site.essays | where: "objectid", page.objectid | first %}
+
+<h1>{{ essay.title }}</h1>
+<div class="byline mb-3">By {{ essay.author }}</div>
+
+<div id="essay-toc-wrapper">
+    {% unless page.toc == false %}
+    <div id="essay-toc">
+        <div id="essay-toc-title">
+            <button class="btn btn-light mb-4" data-bs-toggle="collapse" data-bs-target="#essay-toc-list" aria-expanded="false" aria-controls="essay-toc-list">
+                Contents
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+        </div>
+        <div id="essay-toc-list" class="collapse" > 
+        {% include cb/jekyll-toc.html html=essay.content sanitize=true h_min=1 h_max=3 skip_no_ids=true class="jekyll-toc-list" credits=page.credits %}
+        </div>
+    </div>
+    {% endunless %}
+</div>
+
 <div>
-    {% assign essay = site.essays | where: "objectid", page.objectid | first %}
     {{ essay.content | markdownify }}
 </div>
