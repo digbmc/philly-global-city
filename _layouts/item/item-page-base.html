@@ -10,7 +10,7 @@ item-meta: true
     {% include item/breadcrumbs.html %}
     <div class="my-0 h5 small">{{ page.display_template | replace: "_", " " | upcase }} {% if page.display_template == "compound_object" or page.display_template == "multiple" %}{% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %} ({{ children | size }} Items){% endif %}</div>
     <h2 class="mb-3">{{ page.title }} 
-        {% unless page.display_template == 'record' %}<a href="#essay" class="ms-5 btn btn-sm btn-outline-dark small">Item Info 
+        {% unless page.display_template == 'record' %}<a href="{% if page.display_template == 'location' %}#essay{% else %}#item-metadata{% endif %}" class="ms-5 btn btn-sm btn-outline-dark small">Item Info 
             <svg class="bi icon-sprite" role="img" aria-label="Jump to Item Info">
                 <use xlink:href="{{ '/assets/lib/cb-icons.svg' | relative_url }}#arrow-down"/>
             </svg>
@@ -21,13 +21,16 @@ item-meta: true
         <div class="col-12 col-md-10">
             {{ content }}
         </div>
-
+        {% if page.display_template == "location" %}
         <div class="col-12 col-md-10 mb-4" id="essay">
-
             {% include item/essay.html %}
             {% include citations.html %}
-
         </div>
+        {% else %}
+        <div class="col-12 col-md-10 mb-4">
+            {% include item/metadata.html %}
+        </div>
+        {% endif %}
     </div>
 
     {%- if site.data.theme.browse-buttons == true -%}
