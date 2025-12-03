@@ -36,6 +36,9 @@ function getIcon(objectTemplate,objectFormat,svgType) {
     } else if (iconTemplate.includes("record")) {
         iconId = "icon-record";
         iconTitle = "record object icon";
+    } else if (iconTemplate.includes("location")) {
+        iconId = "icon-location";
+        iconTitle = "location object icon";
     } else {
         iconId = "icon-default";
         iconTitle = "file icon";
