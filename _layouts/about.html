@@ -52,14 +52,13 @@ layout: default
         font-size: 0.75rem;
     }
 </style>
-<div id="about-feature">
+<div id="about-feature" class="mb-2 mb-lg-0">
     <div class="about-title-box">
         {% if page.heading or page.sub-heading %}
         <div class="p-2 text-start text-white bg-dark bg-opacity-75 about-title">
             {% if page.heading %}<h2 class="display-1">{{ page.heading }}</h2>{% endif %}
             {% if page.sub-heading  %}<h3 class="about-tagline h5">{{ page.sub-heading }}</h3>{% endif %}
             {% if page.featured-image-credits %}<div class="px-2 py-1 image-credits"><a class="text-white shadow" href="{{ page.featured-image-credits }}">Image credits</a></div>{% endif %}
-
         </div>
         {% endif %}
     </div>
@@ -67,7 +66,7 @@ layout: default
 {% endif %}
 
 <div id="about-contents-wrapper" class="row justify-content-center">
-    <div class="col-12 col-md-8">
+    <div class="col-12 col-md-8 mb-4">
         {{ content }}
     </div>
 </div>
