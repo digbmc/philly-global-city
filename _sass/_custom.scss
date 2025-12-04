@@ -3,7 +3,7 @@
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
 
-$primary: #bec89b;
+$primary: #2270B4;
 $darker-primary: #828D4E;
 
 /* blockquote styles */
@@ -21,5 +21,5 @@ blockquote {
 }
 
 #scroll-to-top {
-    color: $darker-primary;
+    color: $primary;
 }
