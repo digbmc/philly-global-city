@@ -1,5 +1,5 @@
 ---
-title: About
+title: About us
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
@@ -11,7 +11,7 @@ featured-image-credits: https://commons.wikimedia.org/wiki/File:Independence_Hal
 # set background-position for featured image, "center", "top", "bottom"
 position: center
 # major heading to display over featured image
-heading: About
+heading: About us
 # paragraph text below heading in featured image
 sub-heading: 
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
@@ -22,14 +22,14 @@ padding: 6em
 
 <ul class="list-group list-group-horizontal justify-content-center mb-2">
     <li class="list-group-item text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
-        <a href="#about-the-course">About the Course</a>
+        <a href="#about-the-course">About the course</a>
     </li>
     <li class="list-group-item text-start py-0 my-2 border border-top-0 border-bottom-0 border-end-0 border-secondary">
-        <a href="#who-we-are">Who We Are</a>
+        <a href="#who-we-are">Who we are</a>
     </li>
 </ul>
 
-## About the Course
+## About the course
 
 “ITAL B240 Philadelphia the Global City: The Italian Legacy across Time” is a Tri-Co Philly course taught in Fall 2025. It investigates the history and evolution of Philadelphia as a globalized and multi-ethnic city, using as a case study for this analysis the impact and legacy of transnational Italian culture across the centuries. By adopting a cross-cultural, trans-historical, and interdisciplinary approach, "Philadelphia the Global City" explores the influence that—along with and in intersection with many other cultural inputs—Italian arts and cultures have exerted on the city, making it become the cosmopolitan and transnational urban environment that it is today. 
 
@@ -37,7 +37,7 @@ Throughout the centuries and way before Italy even started existing as a state, 
 
 Through specific field trips, on-site experiential activities, and forms of civic engagement the course highlights both the enduring fascination of Philadelphians with Italy (or with the idea thereof) across the centuries and the role that the Italian Diaspora played in the development of the city. The course ultimately challenges geographical, chronological, and cultural boundaries by showing how places, arts, identities that today are perceived as 'American' have in most cases an intersectional, multi-ethnic, and cross-cultural history to tell.
 
-## Who We Are
+## Who we are
 
 ### ITAL B240
 
