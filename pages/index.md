@@ -18,9 +18,9 @@ padding: 6em
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-<div class="text-center mb-4">
-    <a href="{{ 'map.html' | relative_url }}" class="btn btn-primary btn-lg mx-2">View the Map</a>
-    <a href="{{ 'browse.html' | relative_url }}" class="btn btn-primary btn-lg mx-2">Browse the Collection</a>
+<div class="text-center mb-2">
+    <a href="{{ 'map.html' | relative_url }}" class="btn btn-primary btn-lg mx-2 mb-2">View the Map</a>
+    <a href="{{ 'browse.html' | relative_url }}" class="btn btn-primary btn-lg mx-2 mb-2">Browse the Collection</a>
 </div>
 
 This website is the culmination of a semester of research by students in "ITAL B240 Philadelphia the Global City: The Italian Legacy across Time," a Tri-Co Philly course taught in Fall 2025. It investigates the history and evolution of Philadelphia as a globalized and multi-ethnic city, using as a case study for this analysis the impact and legacy of transnational Italian culture across the centuries. The website features an [interactive map]({{ '/map.html' | relative_url }}) of key locations, artworks, and other points of interest related to the Italian legacy in Philadelphia along with student research on each point of interest. It also features a [collection of locations and images]({{ '/browse.html' | relative_url }}), including photographs taken by the students as well as some found in the course of their research.
