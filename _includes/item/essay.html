@@ -5,9 +5,35 @@
 {%- endcomment -%}
 
 {% assign essay = site.essays | where: "objectid", page.objectid | first %}
+{% assign byline = "" %}
+{% assign authors = essay.author | split: ", " %}
+{% if authors.size >= 3 %}
+    {% for a in authors %}
+        {% assign slug = a | slugify %}
+        {% assign href = "/about.html#" | append: slug | relative_url %}
+        {% capture element %}<a href="{{ href }}">{{ a }}</a>{% endcapture %}
+        {% if forloop.last %}{% assign byline = byline | append: "& " %}{% endif %}
+        {% assign byline = byline | append: element %}
+        {% unless forloop.last %}{% assign byline = byline | append: ", " %}{% endunless %}
+    {% endfor %}
+{% elsif authors.size == 2 %}
+    {% for a in authors %}
+        {% assign slug = a | slugify %}
+        {% assign href = "/about.html#" | append: slug | relative_url %}
+        {% capture element %}<a href="{{ href }}">{{ a }}</a>{% endcapture %}
+        {% if forloop.last %}{% assign byline = byline | append: "& " %}{% endif %}
+        {% assign byline = byline | append: element %}
+        {% unless forloop.last %}{% assign byline = byline | append: " " %}{% endunless %}
+    {% endfor %}
+{% else %}
+    {% assign slug = authors | first | slugify %}
+    {% assign href = "/about.html#" | append: slug | relative_url %}
+    {% capture element %}<a href="{{ href }}">{{ essay.author }}</a>{% endcapture %}
+    {% assign byline = element %}
+{% endif %}
 
 <h1>{{ essay.title }}</h1>
-<div class="byline mb-3">By {{ essay.author }}</div>
+<div class="byline mb-3">By {{ byline }}</div>
 
 <div id="essay-toc-wrapper">
     {% unless page.toc == false %}
