@@ -2,4 +2,7 @@ display_name,stub,dropdown_parent
 Home,/,
 Map,/map.html,
 Browse,/browse.html,
-About us,/about.html
+About,,
+Who we are,/about.html,About
+Course and symposium,/course.html,About
+Gallery,/gallery.html,About
