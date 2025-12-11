@@ -2,3 +2,4 @@ field,display_name,btn,hidden,sort_name,facet_name
 date,,,true,
 location,,true,,Location Depicted,Location Depicted
 subject,,true,,,
+display_template,,,true,Content Type,
