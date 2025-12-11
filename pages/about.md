@@ -1,5 +1,5 @@
 ---
-title: About us
+title: Who we are
 layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
@@ -11,7 +11,7 @@ featured-image-credits: https://commons.wikimedia.org/wiki/File:Independence_Hal
 # set background-position for featured image, "center", "top", "bottom"
 position: center
 # major heading to display over featured image
-heading: About us
+heading: Who we are
 # paragraph text below heading in featured image
 sub-heading: 
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
@@ -20,26 +20,7 @@ padding: 6em
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-<ul class="list-group list-group-horizontal justify-content-center mb-2">
-    <li class="list-group-item text-start py-0 my-2 border border-top-0 border-bottom-0 border-start-0 border-secondary">
-        <a href="#about-the-course">About the course</a>
-    </li>
-    <li class="list-group-item text-start py-0 my-2 border border-top-0 border-bottom-0 border-end-0 border-secondary">
-        <a href="#who-we-are">Who we are</a>
-    </li>
-</ul>
-
-## About the course
-
-“ITAL B240 Philadelphia the Global City: The Italian Legacy across Time” is a Tri-Co Philly course taught in Fall 2025. It investigates the history and evolution of Philadelphia as a globalized and multi-ethnic city, using as a case study for this analysis the impact and legacy of transnational Italian culture across the centuries. By adopting a cross-cultural, trans-historical, and interdisciplinary approach, "Philadelphia the Global City" explores the influence that—along with and in intersection with many other cultural inputs—Italian arts and cultures have exerted on the city, making it become the cosmopolitan and transnational urban environment that it is today. 
-
-Throughout the centuries and way before Italy even started existing as a state, Philadelphians traveled to the peninsula and brought back objects to display in emerging cultural institutions or studied the country's art and architecture styles to shape the evolving aspect of the city. Simultaneously, incoming immigration formed new neighborhoods—such as South Philly, home to the Italian Market—and Italian figures came to prominence and became part of the social fabric of the city. Nowadays, many non-profit organizations work to preserve the traces that Italian migrants left within Philadelphia's multi-ethnic urban environment as well as to extend the city's global profile and celebrate its heritage and diversity. 
-
-Through specific field trips, on-site experiential activities, and forms of civic engagement the course highlights both the enduring fascination of Philadelphians with Italy (or with the idea thereof) across the centuries and the role that the Italian Diaspora played in the development of the city. The course ultimately challenges geographical, chronological, and cultural boundaries by showing how places, arts, identities that today are perceived as 'American' have in most cases an intersectional, multi-ethnic, and cross-cultural history to tell.
-
-## Who we are
-
-### ITAL B240
+## ITAL B240
 
 <span id="luca-zipoli" class="bio-id fw-bold">Luca Zipoli</span> holds a PhD in Italian Literature from the Scuola Normale Superiore in Pisa and is currently an Assistant Professor in the Department of Transnational Italian Studies at Bryn Mawr College. He was born and raised in Rome, Italy, and moved to Philadelphia in 2022, quickly falling under its spell. Luca enjoys reading, studying, and researching about the city’s history and arts, and was elated to be able to transfer his passion and knowledge into this course, while learning from the students’ diverse ideas, gazes, and researches.
 
@@ -80,7 +61,7 @@ Through specific field trips, on-site experiential activities, and forms of civi
 <span id="phoenix-zhang" class="bio-id fw-bold">Phoenix Zhang</span> (she/her), BMC '28, is a sophomore from D.C. and China. She is a Computer Science and History of Art major. She enrolled in this class to explore her keen interest in both Italian culture and the history of Philadelphia.
 
 
-### Library and Information Technology Services
+## Library and Information Technology Services
 
 <span id="cameron-boucher" class="bio-id fw-bold">Cameron Boucher</span>, BMC '23, Educational and Scholarly Technology Assistant
 
