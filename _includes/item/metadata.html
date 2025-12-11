@@ -10,7 +10,10 @@
         {% for f in fields %}{% if page[f.field] %}
         <dt class="field">{{ f.display_name }}:</dt>
         <dd class="field-value">
-            {% if f.browse_link == "true" %}
+            {% if f.field == "location" %}
+            {% assign parent = site.data[site.metadata] | where_exp: 'item','item.location contains page[f.field]' | first %}
+            <a class="me-3" href="{{ parent.objectid | prepend: '/items/' | append: '.html' | relative_url }}">{{ page[f.field] }}</a>
+            {% elsif f.browse_link == "true" %}
             {% assign topics = page[f.field] | split: ";" %}
             {% for t in topics %}
             <a class="me-3" href="{{ t | strip | url_param_escape | prepend: ':' | prepend: f.field | prepend: '/browse.html#' | relative_url }}">{{ t | strip }}</a>

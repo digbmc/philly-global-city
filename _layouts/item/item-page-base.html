@@ -7,7 +7,7 @@ item-meta: true
 ---
 <div class="container py-3">
 
-    {% include item/breadcrumbs.html %}
+    {% comment %}{% include item/breadcrumbs.html %}{% endcomment %}
     <div class="my-0 h5 small">{{ page.display_template | replace: "_", " " | upcase }} {% if page.display_template == "compound_object" or page.display_template == "multiple" %}{% assign children = site.data[site.metadata] | where_exp: 'item','item.parentid == page.objectid' %} ({{ children | size }} Items){% endif %}</div>
     <h2 class="mb-3">{{ page.title }} 
         {% unless page.display_template == 'record' %}<a href="{% if page.display_template == 'location' %}#essay{% else %}#item-metadata{% endif %}" class="ms-5 btn btn-sm btn-outline-dark small">Item Info 
