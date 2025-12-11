@@ -28,3 +28,10 @@ blockquote {
 .bio-id {
     font-weight: 600;
 }
+
+/* active dropdown items */
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: $primary;
+}
