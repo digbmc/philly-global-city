@@ -5,7 +5,7 @@ permalink: /course.html
 # include CollectionBuilder info at bottom
 credits: false
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: /assets/img/course-header.JPG
+about-featured-image: /assets/img/urban-palimpsests2.jpg
 # Credits/attribution for the image (optional)
 featured-image-credits:
 # set background-position for featured image, "center", "top", "bottom"
