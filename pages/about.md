@@ -22,7 +22,7 @@ padding: 6em
 
 ## ITAL B240
 
-<span id="luca-zipoli" class="bio-id fw-bold">Luca Zipoli</span> holds a PhD in Italian Literature from the Scuola Normale Superiore in Pisa and is currently an Assistant Professor in the Department of Transnational Italian Studies at Bryn Mawr College. He was born and raised in Rome, Italy, and moved to Philadelphia in 2022, quickly falling under its spell. Luca enjoys reading, studying, and researching about the city’s history and arts, and was elated to be able to transfer his passion and knowledge into this course, while learning from the students’ diverse ideas, gazes, and researches.
+<span id="luca-zipoli" class="bio-id fw-bold">Luca Zipoli</span> (he/him) holds a PhD in Italian Literature from the Scuola Normale Superiore in Pisa and is currently an Assistant Professor in the Department of Transnational Italian Studies at Bryn Mawr College. He was born and raised in Rome, Italy, and moved to Philadelphia in 2022, quickly falling under its spell. Luca enjoys reading, studying, and researching about the city’s history and arts, and was elated to be able to transfer his passion and knowledge into this course, while learning from the students’ diverse ideas, gazes, and researches.
 
 <span id="willa-bywater" class="bio-id fw-bold">Willa Bywater</span> (any/all), BMC '27, is a History major and Museum Studies minor with an interest in working-class history and the formation of regional cultures and identities. They are neither Italian nor Philadelphian, but were born in Chicago and raised in Maine, and like to describe their ethnic background as "a long line of very cold people who ate a lot of potatoes." Nevertheless, they have truly enjoyed getting to know Philadelphia better through this course, and would like to extend a particular thanks to the people of the 9th Street Market for their kindness and delicious food.
 
@@ -30,13 +30,14 @@ padding: 6em
 
 <span id="lucy-dellera" class="bio-id fw-bold">Lucy Dellera</span> (they/she), BMC '28, is a Biology and Geology double major and a Transnational Italian studies minor. They are from a small town in Western Pennsylvania, and have always been curious about cities as a cultural hub. When they moved to Bryn Mawr for college, Lucy chose to do the Trico Philly Program to make sure they could take advantage of the amazing things the city has to offer. Through the program, they have learned so much about Italian American History, and all of the things that make Philadelphia the city it is today. 
 
-<span id="leo-feng" class="bio-id fw-bold">Leo Feng</span>, HC ’27
+<span id="leo-feng" class="bio-id fw-bold">Leo Feng</span> (he/him), HC ’27, is a Physics and Engineering major. He was originally born and raised in Beijing, and moved to Philadelphia, and is currently in New York City. Because Leo has lived in many areas with vibrant Italian communities, he wanted to enroll in this course to learn more about their history and the background behind those communities. His favorite part about this course was being able to see the material taught in real life, which helps enforce those concepts and make them more memorable.
 
 <span id="emma-heckmann" class="bio-id fw-bold">Emma Heckmann</span> (she/her), BMC ‘27, is a Biology Major on the pre-veterinary track. She is from just down the street and was eager to learn more about Philadelphia. Emma enrolled in this course to explore the city and its layered histories, and throughout the program she has gained a deeper understanding of how Italian culture has shaped Philadelphia and its communities. She especially enjoyed meeting with locals and local historians to learn about Philadelphia’s niche stories — particularly the lively conversations about sandwiches during the Ninth Street Market tour.
 
-<span id="maia-henry" class="bio-id fw-bold">Maia Henry</span>, BMC '26
+<span id="maia-henry" class="bio-id fw-bold">Maia Henry</span> (she/her), HC '26, is a senior majoring in The Growth and Structure of Cities at Bryn Mawr. She is from NYC but recently moved to Philadelphia and wanted to use this class as a way to explore the city through art, architecture, history, and food. 
 
-<span id="isabela-jimenez" class="bio-id fw-bold">Isabela Jimenez</span>, HC ’27
+<span id="isabela-jimenez" class="bio-id fw-bold">Isabela Jimenez</span>, HC ’27, is a History and Spanish double major and a History of Art minor. She is from Bogota, Colombia. She enrolled in the class due to a desire to get to know Philadelphia, its culture, and its history, better. The opportunity to constantly go into the city and explore it through different facets is one of the biggest draws she had to ITAL B240. 
+
 
 <span id="madelynne-johns" class="bio-id fw-bold">Madelynne Johns</span> (she/her/hers), BMC '28, is an Anthropology and Political Science double major. She grew up in northern Pennsylvania, and moved to the Philadelphia area for college. After growing up in a very rural environment, she was excited to explore the city of Philadelphia through ITAL B240. Choosing to research the Library Company of Philadelphia, has tied together her interests surrounding Italian architecture, Italian literature, and the revolutionary city of Philadelphia.
 
@@ -44,11 +45,13 @@ padding: 6em
 
 <span id="zakkai-mares-van-praag" class="bio-id fw-bold">Zakkai Mares-Van Praag</span> (any pronouns), HC '26, is a Growth and Structure of Cities major and Anthropology minor. Having studied abroad in three countries last semester, they came to the realization that in spite of heading into their fourth year in the area, they had a lack of depth to their understanding of Philadelphia. Having always wanted to take a Tri-Co Philly course but never with enough schedule space to do the program, they were excited to find this class, which has served as an opportunity to begin to understand the complex history of this global city through the lens of Italian impact. 
 
-<span id="sylvia-martin" class="bio-id fw-bold">Sylvia Martin</span>, HC ’27
+<span id="sylvia-martin" class="bio-id fw-bold">Sylvia Martin</span>, HC ’27, is a growth and structure of cities major and health studies minor. She is from the Bay Area, CA and is a junior at Haverford College. She enrolled in Tri-Co Philly and ITAL B240 in order to gain an understanding of the history and ongoing legacy of Italian immigration in Philadelphia, and was excited to get to know the city in an interactive way.
 
-<span id="kailey-mitsuoka" class="bio-id fw-bold">Kailey Mitsuoka</span>, BMC '28
+<span id="kailey-mitsuoka" class="bio-id fw-bold">Kailey Mitsuoka</span>, BMC '28, is an environmental studies major and health studies minor. She grew up in California and is a sophomore at Bryn Mawr College. Having grown up in a suburban area of Los Angeles, she wanted to explore and learn more about the history of a big city like Philadelphia. 
 
-<span id="kenna-pettigrew" class="bio-id fw-bold">Kenna Pettigrew</span>, BMC '26
+
+<span id="kenna-pettigrew" class="bio-id fw-bold">Kenna Pettigrew</span> (they/he), BMC '26, is an art history major and museum studies minor. They are originally from Shreveport, Louisiana. While they have spent much of their time throughout college doing community work in West Philadelphia, they are grateful for the ways this course has allowed them to explore new neighborhoods and businesses. 
+
 
 <span id="kendall-phillips" class="bio-id fw-bold">Kendall Phillips</span>, BMC ’26, is studying Art History and Mathematics. Originally from Oklahoma, she wanted to take ITAL B240 after moving into an apartment on the edge of Philadelphia and wanted to learn more about the buildings and city around her.
 
