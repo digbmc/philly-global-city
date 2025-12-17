@@ -6,14 +6,16 @@ permalink: /gallery.html
 
 # Gallery
 
+Photos from lectures and field trips that were part of the ITAL B240 course in Fall 2025.
+
 <div id="gallery">
 {%- assign images-to-split = '' -%}
 {%- assign alts-to-split = '' -%}
-{%- for image in site.data.config-gallery -%}
+{%- for image in site.data.config-course-photos -%}
     {% capture new-image %}{{ image.path | absolute_url }}{% unless forloop.last %}{% cycle ';', '|' %}{% endunless %}{% endcapture %}
     {%- assign images-to-split = images-to-split | append: new-image -%}
 {%- endfor -%}
-{%- for image in site.data.config-gallery -%}
+{%- for image in site.data.config-course-photos -%}
     {% capture new-alt %}{{ image.alt }}{% unless forloop.last %}{% cycle ';', '||' %}{% endunless %}{% endcapture %}
     {%- assign alts-to-split = alts-to-split | append: new-alt -%}
 {%- endfor -%}

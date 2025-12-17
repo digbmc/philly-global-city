@@ -33,3 +33,34 @@ Through specific field trips, on-site experiential activities, and forms of civi
 {% include feature/video.html objectid="https://youtu.be/KWVKJTrrlHU?si=_JUQvDqDokZejCzH" %}
 
 On Monday, December 8, 2025, Assistant Professor of Transnational Italian Studies Luca Zipoli and the students in ITAL B240 presented “Urban Palimpsests: A Student Symposium on the Italian Legacy in Global Philadelphia,” featuring 13 student presentations and opening and closing remarks by the Consul General of Italy Nico Frandi. The event was organized by the Department of Transnational Italian Studies and co-sponsored by the Consulate General of Italy in Philadelphia, the Tri-Co Philly program, and Library and Information Technology Services (LITS) at Bryn Mawr College. Further information on the symposium and testimonials on this project can be found on the Bryn Mawr College website in the Story titled ["Transnational Italian Studies and LITS hold symposium and launch website for Tri-Co Philly course."](https://www.brynmawr.edu/stories/transnational-italian-studies-lits-hold-symposium-launch-website-tri-co-philly-course)
+
+<div class="accordion mb-4" id="accordionSymposium">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneS" aria-expanded="true" aria-controls="collapseOne">
+        View photos from the "Urban Palimpsests" symposium.
+      </button>
+    </h2>
+    <div id="collapseOneS" class="accordion-collapse collapse p-4" data-bs-parent="#accordionSymposium">
+        <div id="symposium-gallery">
+        {%- assign images-to-split = '' -%}
+        {%- assign alts-to-split = '' -%}
+        {%- for image in site.data.config-symposium-photos -%}
+            {% capture new-image %}{{ image.path | absolute_url }}{% unless forloop.last %}{% cycle ';', '|' %}{% endunless %}{% endcapture %}
+            {%- assign images-to-split = images-to-split | append: new-image -%}
+        {%- endfor -%}
+        {%- for image in site.data.config-symposium-photos -%}
+            {% capture new-alt %}{{ image.alt }}{% unless forloop.last %}{% cycle ';', '||' %}{% endunless %}{% endcapture %}
+            {%- assign alts-to-split = alts-to-split | append: new-alt -%}
+        {%- endfor -%}
+
+        {%- assign image-groups = images-to-split | split: '|' -%}
+        {%- assign alt-groups = alts-to-split | split: '||' -%}
+        {%- for group in image-groups -%}
+            {%- assign alts = alt-groups[forloop.index0] -%}
+            {% include feature/image.html objectid=group alt=alts %}
+        {%- endfor -%}
+        </div>
+    </div>
+  </div>
+</div>
